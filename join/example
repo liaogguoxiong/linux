@@ -1,0 +1,3 @@
+ftpuser:x:1002:1002::/ftp_data:/sbin/nologin
+mysql:x:27:27:MariaDB Server:/var/lib/mysql:/sbin/nologin
+zsy:x:1001:1001::/home/zsy:/bin/bash

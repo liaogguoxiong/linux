@@ -1,0 +1,10 @@
+import os
+key=input("请输入自定义的key:")
+cmd=input("请输入key对应的命令:")
+add_key="UserParameter={key},{cmd}".format(key=key,cmd=cmd)
+f=open('/etc/zabbix/zabbix_agentd.conf','a',encoding='utf-8')
+f.write("\n")        
+f.write(add_key)
+f.close()
+os.system("systemctl restart zabbix-agent")
+print("zabbix-agent重启成功")

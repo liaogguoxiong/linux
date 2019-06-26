@@ -1,0 +1,11 @@
+#!/bin/bash
+a=
+if [ $a -eq  ];then
+
+    echo "True"
+
+else
+
+    echo "False"
+
+fi

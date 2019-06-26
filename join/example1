@@ -1,0 +1,3 @@
+ftpuser:x:ftplogin
+mysql:x:hello
+tomcat:x:nihao
